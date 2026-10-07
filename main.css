@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(245, 4, 196);
+}
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+.header {
+    border-collapse: separate;
+    background-color: rgb(136, 44, 44);
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(255, 227, 227);
+    font-size: large;
+}
+.header tr th{
+    width:10%;
+}
+.heading {
+    text-align: center;
+    text-decoration: underline;
+    color: aliceblue;
+}
+.block {
+    display: block;
+    width: 100%;
+}
+.rightBlock{
+    float: right;
+    margin-left: 7%;
+    margin-bottom: 2%;
+    max-width: 40%;
+    height: auto;
+
+}
+.leftBlock{
+    display: block;
+    text-align: left;
+    max-width: 100%;   
+}
+.block::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.block2 {
+    display: block;
+    width: 100%;
+}
+.leftBlock2{
+    float: left;
+    margin-right: 7%;
+    margin-bottom: 2%;
+    max-width: 40%;
+    height: auto;
+
+}
+.rightBlock2{
+    display: block;
+    text-align: left;
+    max-width: 100%;   
+}
+.block2::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.onit {
+    background-color: rgb(133, 84, 21);
+    width:max-content;
+}
+.ribbon{
+    width: 100%;
+    border:solid;
+    border-color: bisque;
+}
+.paragraph{
+    font-family: sans-serif;
+    font-style: bold;
+    font-size: larger;
+    color:rgb(143, 212, 205);
+}
+.subhead{
+    font-style: bold;
+    color: antiquewhite;
+}
